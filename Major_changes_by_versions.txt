@@ -1,0 +1,87 @@
+Java 8 (March 2014)
+Lambda Expressions: Introduced functional programming through lambda expressions, making code more concise.
+Streams API: Enabled functional-style operations on collections, like map, filter, and reduce.
+Optional Class: Introduced Optional<T> to handle nullable values more gracefully.
+Date and Time API: Introduced a modern API (java.time) for date and time operations.
+Nashorn JavaScript Engine: Added the Nashorn JavaScript engine for embedding JavaScript code in Java.
+Default Methods: Allowed adding new methods to interfaces without breaking existing implementations.
+
+Java 9 (September 2017)
+Java Platform Module System (JPMS): Introduced modules, allowing better structuring and encapsulation of code.
+JShell: Introduced an interactive REPL (Read-Eval-Print Loop) for quick testing of Java code.
+Improved JDK Internal APIs: Removed access to certain internal APIs, enhancing security.
+New HTTP/2 API: Improved HTTP support and introduced the java.net.http package.
+Process API Enhancements: Added methods to control and manage operating system processes better.
+
+Java 10 (March 2018)
+Local-Variable Type Inference: Introduced the var keyword, allowing type inference for local variables.
+Garbage Collector Improvements: Added the experimental G1 garbage collector as the default GC.
+Application Class-Data Sharing: Enabled class-data sharing to reduce footprint and improve startup time.
+
+Java 11 (September 2018)
+New String Methods: Added methods like isBlank, lines, strip, repeat.
+HTTP Client API: Standardized the new HTTP client for HTTP/2 and WebSocket support.
+Removal of Java EE and CORBA Modules: Removed deprecated modules from Java SE.
+Local-Variable Syntax for Lambda Parameters: Allowed var in lambda expressions.
+Z Garbage Collector (ZGC): Introduced ZGC, an experimental low-latency garbage collector.
+
+Java 12 (March 2019)
+Switch Expressions (Preview): Enhanced the switch statement to return values, making it more flexible.
+JVM Constants API: Introduced ConstantDesc for easier handling of constants at runtime.
+Default CDS Archives: Improved class-data sharing for faster startup.
+G1 Garbage Collector Enhancements: Improved garbage collection handling for larger heaps.
+
+Java 13 (September 2019)
+Text Blocks (Preview): Introduced multi-line string literals to improve readability.
+Switch Expressions (Second Preview): Continued enhancements to switch expressions.
+Dynamic CDS Archives: Improved class-data sharing by archiving classes at runtime.
+
+Java 14 (March 2020)
+Records (Preview): Added records, a new data-centric class type, reducing boilerplate for simple data holders.
+Pattern Matching for instanceof (Preview): Allowed pattern matching with instanceof for simpler type casting.
+Helpful NullPointerExceptions: Enhanced error messages for null pointer exceptions.
+Switch Expressions (Standard): Finalized switch expressions, making them standard.
+
+Java 15 (September 2020)
+Text Blocks: Text blocks graduated from preview, making multi-line string literals a standard feature.
+Sealed Classes (Preview): Allowed restricting which classes can inherit from a particular class.
+Hidden Classes: Introduced hidden classes for framework and proxy development.
+Edwards-Curve Digital Signature Algorithm (EdDSA): Added support for this new digital signature algorithm.
+
+Java 16 (March 2021)
+Pattern Matching for instanceof: Finalized pattern matching for instanceof.
+Records: Records were standardized, providing a concise way to model data.
+New Packaging Tool: Added the jpackage tool to create native installers for Java applications.
+Foreign-Memory Access API (Incubator): Provided a safer way to access native memory.
+
+Java 17 (September 2021) - Long-Term Support (LTS)
+Sealed Classes: Sealed classes were standardized.
+Pattern Matching for switch (Preview): Extended pattern matching to switch.
+Enhanced Pseudo-Random Number Generators: Added new interfaces and implementations for random numbers.
+Context-Specific Deserialization Filters: Improved security for deserialization.
+Removal of Deprecated Features: Removed the Applets API and Security Manager.
+
+Java 18 (March 2022)
+UTF-8 by Default: Made UTF-8 the default charset for standard Java APIs.
+Simple Web Server: Introduced a minimal web server for testing and prototyping.
+Vector API (Third Incubator): Enhanced API for SIMD vector operations.
+Code Snippets in Java API Documentation: Improved Javadoc with code snippets.
+
+Java 19 (September 2022)
+Virtual Threads (Preview): Added virtual threads as part of Project Loom to improve concurrency.
+Structured Concurrency (Incubator): Simplified error handling and cancellation in concurrent applications.
+Foreign Function & Memory API (Preview): Enhanced access to non-Java APIs and memory.
+Pattern Matching for switch (Second Preview): Continued enhancements to switch with pattern matching.
+
+Java 20 (March 2023)
+Scoped Values (Incubator): Simplified state management for tasks.
+Pattern Matching for switch (Third Preview): Further improved pattern matching in switch.
+Record Patterns (Second Preview): Enabled decomposition of record values within patterns.
+Foreign Function & Memory API (Second Preview): Continued improvements to this API.
+
+Java 21 (September 2023) - Long-Term Support (LTS)
+Pattern Matching for switch (Standard): Pattern matching in switch was standardized.
+String Templates (Preview): Introduced string templates to simplify complex string construction.
+Virtual Threads: Virtual threads became standardized, enhancing concurrency handling.
+Unnamed Classes and Instance Main Methods (Preview): Simplified code for prototyping and scripting.
+Sequenced Collections: Added sequenced collections interfaces to unify access to both ends of collections.
