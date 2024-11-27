@@ -1,4 +1,4 @@
-package com.eltosevenz.java.streams;
+package com.eltosevenz.streams;
 
 public class Transaction {
     String date;

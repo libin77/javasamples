@@ -1,4 +1,4 @@
-package com.eltosevenz.java.streams;
+package com.eltosevenz.date;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;

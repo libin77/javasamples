@@ -1,4 +1,4 @@
-package com.eltosevenz.java.streams;
+package com.eltosevenz.streams;
 
 import java.util.*;
 import java.util.function.Function;

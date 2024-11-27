@@ -1,4 +1,4 @@
-package com.eltosevenz.java.streams;
+package com.eltosevenz.streams;
 
 import java.util.*;
 import java.util.function.Predicate;
@@ -105,6 +105,11 @@ public class StreamsSampleOne {
                 ));
 
         citiesByNation.forEach((nation,cities)->System.out.println(nation+"-"+cities));
+
+        //15 String lines - split string by \n as each line by line
+        String line = "My name is Libin \n Hello libin ney";
+        String revline = line.lines().map(a->new StringBuilder(a).reverse()).collect(Collectors.joining(" "));
+        System.out.println(revline);
 
     }
 
