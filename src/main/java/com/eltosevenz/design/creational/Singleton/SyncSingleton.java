@@ -1,4 +1,4 @@
-package com.eltosevenz.design.Singleton;
+package com.eltosevenz.design.creational.Singleton;
 
 /*Thread safe, But performance issue*/
 public class SyncSingleton {

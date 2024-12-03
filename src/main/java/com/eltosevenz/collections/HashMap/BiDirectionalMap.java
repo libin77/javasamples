@@ -1,4 +1,4 @@
-package com.eltosevenz.collections;
+package com.eltosevenz.collections.HashMap;
 
 import java.util.HashMap;
 import java.util.Map;

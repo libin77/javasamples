@@ -37,7 +37,7 @@ Switch Expressions (Second Preview): Continued enhancements to switch expression
 Dynamic CDS Archives: Improved class-data sharing by archiving classes at runtime.
 
 Java 14 (March 2020)
-Records (Preview): Added records, a new data-centric class type, reducing boilerplate for simple data holders.
+Records (Preview): Added records, a new data-centric class type, reducing boilerplate for simple data holders. - Immutable class
 Pattern Matching for instanceof (Preview): Allowed pattern matching with instanceof for simpler type casting.
 Helpful NullPointerExceptions: Enhanced error messages for null pointer exceptions.
 Switch Expressions (Standard): Finalized switch expressions, making them standard.

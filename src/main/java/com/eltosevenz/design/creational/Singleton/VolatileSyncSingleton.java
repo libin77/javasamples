@@ -1,4 +1,4 @@
-package com.eltosevenz.design.Singleton;
+package com.eltosevenz.design.creational.Singleton;
 
 /*
 * Thread Safe, improved performance. But complex to implement also volatile required

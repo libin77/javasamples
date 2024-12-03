@@ -1,4 +1,4 @@
-package com.eltosevenz.design.Singleton;
+package com.eltosevenz.design.creational.Singleton;
 
 /* Thread safe but wastage of resource as instance creation at start*/
 public class EagerSingleton {

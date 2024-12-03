@@ -1,4 +1,4 @@
-package com.eltosevenz.design.Singleton;
+package com.eltosevenz.design.creational.Singleton;
 
 public enum EnumSingleton {
     Instance;

@@ -1,4 +1,4 @@
-package com.eltosevenz.design.Singleton;
+package com.eltosevenz.design.creational.Singleton;
 
 /*Not thread safe. But instance created when only required*/
 public class LazySingleton {

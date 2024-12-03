@@ -1,4 +1,4 @@
-package com.eltosevenz.design.Singleton;
+package com.eltosevenz.design.creational.Singleton;
 
 /*Inner class used. Best practice using jvm inbuilt. thread safe. lazy load . no sync overhead (BillPugh)*/
 public class InnerClassSingleton {
