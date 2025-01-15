@@ -35,7 +35,7 @@ public class ThreadBasic {
 
         //Interface Runnable
         MyRunnable myRunnable = new MyRunnable();
-        myRunnable.run();
+        new Thread(myRunnable).start();
 
         //Lambda Expression
         Runnable runnable = ()->System.out.println("Inside Thread -- Lambda");
