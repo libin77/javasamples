@@ -14,3 +14,8 @@ public enum EnumSingleton {
 * Prevent relection to create multiple instance
 * But enum based not suitable for complex class operations
  */
+
+//Declare enum
+//enum DAYS  { Monday, Tuesday};
+
+
