@@ -4,7 +4,6 @@ import java.util.ArrayDeque;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Queue;
-
 /*
 Design a RateLimiter class that allows N requests per T seconds per user.
 
